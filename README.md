@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+🎬 [튜토리얼 링크 : https://www.youtube.com/watch?v=F2JCjVSZlG0](https://www.youtube.com/watch?v=F2JCjVSZlG0)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](./screenshot.png)
 
-## Available Scripts
+퀴즈 API는 https://opentdb.com의 것을 사용합니다.
 
-In the project directory, you can run:
+## 📋 새로 배운 점
 
-### `npm start`
+- styled-component를 사용할 때, createGlobalStyle을 활용해 전역 스타일을 적용할 수 있다.
+- 영상에서는 Enum 타입을 활용하는데, 열거형에 대해 잘 몰라 찾아보니 [라인 기술 블로그](https://engineering.linecorp.com/ko/blog/typescript-enum-tree-shaking/) 에서는 성능 이슈로 인해 열거형 대신 type을 활용할 것을 권장하는 것 같았습니다.
+- styled-component와 타입스크립트를 함께 사용할 때, styled-component에 props를 넘겨줄 때는 속성값의 수에 따라 다른 방법으로 타입을 지정함을 알 수 있었습니다. [참고한 링크](https://velog.io/@hwang-eunji/styled-component-typescript#1-%EB%8B%A8%EC%9D%BC-props-%EC%82%AC%EC%9A%A9%EC%8B%9C)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🧭 향후 계획
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 간단한 미국 상식 퀴즈 앱을 만들어 보았는데, 자바스크립트 문법 관련 퀴즈 서비스를 만들어봐도 재밌을 것 같았습니다.
